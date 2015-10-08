@@ -1,0 +1,8 @@
+body{
+	color: white;
+	background-color: black;
+}
+
+blockquote::first-letter {
+  text-transform: uppercase;
+}

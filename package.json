@@ -1,0 +1,9 @@
+{
+  "name": "Benerator",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-sass": "~2.0.4",
+    "bower": "~1.5.3"
+  }
+}
