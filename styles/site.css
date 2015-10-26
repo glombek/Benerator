@@ -1,6 +1,42 @@
-body {
-  color: white;
-  background-color: black; }
+*, *:before, *:after {
+  box-sizing: inherit; }
 
-blockquote::first-letter {
-  text-transform: uppercase; }
+body {
+  color: #FEFEFE;
+  background-color: #010101;
+  box-sizing: border-box; }
+
+article {
+  background-color: #FEFEFE;
+  color: #010101;
+  border-radius: 0.5rem;
+  display: block;
+  width: 70%;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  transform: translateY(-50%); }
+  article button {
+    border: 1px solid #010101;
+    font-family: inherit;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0.1rem; }
+
+article:before {
+  content: '';
+  border-top: 1rem solid #FEFEFE;
+  border-right: 1rem solid transparent;
+  border-bottom: none;
+  border-left: 1rem solid transparent;
+  display: block;
+  position: absolute;
+  bottom: -1rem;
+  left: 1rem; }
